@@ -1,9 +1,6 @@
-# the handling of gnone terminals - using the example of system monitors
+# The handling of gnone terminals - using the example of system monitors
 <!-- keep the format -->
-## Reason
-<!-- keep the format -->
-- create a system monitor for avoid system critical task
-- simply clever
+Handling of gnome terminals - using the example to avoid dangerous conditions of the system
 <!-- keep the format -->
 ## Motivation
 <!-- keep the format -->
@@ -12,6 +9,11 @@
 - used only system/os tools, bash commands not third parts tool
 - avoid additional tools
 - automatically startup during boot phase
+<!-- keep the format -->
+## Reason
+<!-- keep the format -->
+- create a system monitor for avoid system critical task
+- simply clever
 <!-- keep the format -->
 ## Start Date of project
 <!-- keep the format -->
