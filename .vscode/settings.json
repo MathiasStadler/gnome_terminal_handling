@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
         "Extname",
+        "getactivewindow",
         "gnone",
         "shellcheck",
+        "windowfocus",
         "wmctrl"
     ]
 }
