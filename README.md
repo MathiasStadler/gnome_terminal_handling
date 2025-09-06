@@ -4,11 +4,13 @@ Handling of gnome terminals - using the example to avoid dangerous conditions of
 <!-- keep the format -->
 ## Motivation
 <!-- keep the format -->
-- save time
-- avoid setup control system every time
-- used only system/os tools, bash commands not third parts tool
-- avoid additional tools
-- automatically startup during boot phase
+- Learn handling with (gnome) terminals
+- For everyday use, minimal resource consumption
+- Avoidance of recurring setups
+- Only system/operating system tools are used
+- Default installation of the operating system
+- No third-party tools
+- Automatic start during boot phase
 <!-- keep the format -->
 ## Reason
 <!-- keep the format -->
