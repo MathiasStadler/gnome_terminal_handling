@@ -38,6 +38,13 @@ echo $BASH_VERSION
 5.2.15(1)-release
 ```
 <!-- keep the format -->
+## Format Compliance
+<!-- keep the format -->
+- shellcheck [![alt text][1]](phttps://www.shellcheck.net)
+- bash test
+- bash code coverage
+
+<!-- keep the format -->
 For further steps, see Project path [![alt text][1]](project_path.md)
 <!-- make folder and download the link sign vai curl -->
 <!-- mkdir -p img && curl --create-dirs --output-dir img -O  "https://raw.githubusercontent.com/MathiasStadler/link_symbol_svg/refs/heads/main/link_symbol.svg"-->

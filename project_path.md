@@ -8,6 +8,12 @@ touch README.md
 
 ## useful sources
 
+## create script folder
+
+- **mkdir script**
+
+https://code.visualstudio.com/docs/reference/variables-reference
+
 https://medium.com/@whentonseth/building-a-simple-system-monitoring-tool-with-bash-0d91516537bd
 https://duckduckgo.com/?q=create+a+system+monitor+for+avoid+system+critical+task+deutsch&t=vivaldi&atb=v484-1&ia=web
 <!-- keep the format -->
