@@ -1,7 +1,5 @@
 # codium  predefined_variables [![alt text][1]](https://stackoverflow.com/questions/38703278/vscode-environment-variables-besides-workspaceroot)
 <!-- keep the format -->
-<!-- keep the format -->
-<!-- keep the format -->
 - ${workspaceFolder} - the path of the folder opened in VS Code
 - ${workspaceFolderBasename} - the name of the folder opened in VS Code without any slashes (/)
 - ${file} - the current opened file
