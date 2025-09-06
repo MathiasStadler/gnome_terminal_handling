@@ -1,11 +1,17 @@
-# gnome terminal handling
+# the handling of gnone terminals - using the example of system monitors
+<!-- keep the format -->
+## Reason
+<!-- keep the format -->
+- create a system monitor for avoid system critical task
+- simply clever
 <!-- keep the format -->
 ## Motivation
 <!-- keep the format -->
-- avoid/save me every day morning routine setup time
-- open bash base monitor about the system
-- use only bash(system command
+- save time
+- avoid setup control system every time
+- used only system/os tools, bash commands not third parts tool
 - avoid additional tools
+- automatically startup during boot phase
 <!-- keep the format -->
 ## Start Date of project
 <!-- keep the format -->
@@ -28,7 +34,7 @@ echo $BASH_VERSION
 5.2.15(1)-release
 ```
 <!-- keep the format -->
-see project path for steps [![alt text][1]](project_path.md)
+For further steps, see Project path [![alt text][1]](project_path.md)
 <!-- make folder and download the link sign vai curl -->
 <!-- mkdir -p img && curl --create-dirs --output-dir img -O  "https://raw.githubusercontent.com/MathiasStadler/link_symbol_svg/refs/heads/main/link_symbol.svg"-->
 <!-- Link sign - Don't Found a better way :-( - You know a better method? - **send me a email** -->
