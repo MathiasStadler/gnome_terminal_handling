@@ -28,3 +28,8 @@ wmctrl -r :ACTIVE: -b toggle,above  && \\
 # gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800 -b toggle,above
 
 # gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800; wmctrl -i -r $(xdotool getactivewindow)  -b toggle,above
+
+# gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800; wmctrl -i -r $(xdotool getactivewindow)  -b toggle,above
+
+# open new terminal and change size and always on top
+# wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800; wmctrl -i -r $(xdotool getactivewindow)  -b toggle,above
