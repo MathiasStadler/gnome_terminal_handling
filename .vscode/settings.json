@@ -3,6 +3,8 @@
         "Extname",
         "getactivewindow",
         "gnone",
+        "mointor",
+        "sccache",
         "shellcheck",
         "windowfocus",
         "wmctrl"

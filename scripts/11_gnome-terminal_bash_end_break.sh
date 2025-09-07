@@ -9,8 +9,9 @@
 
 ###
 gnome-terminal -- bash -c "a=$(wmctrl -l|tail -n 1 |tail -n 1 | awk '{print $1;}') && \\
-wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800  &&  wmctrl -r :ACTIVE: -b toggle,above  && exit \\
-bash"
+wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800  && \\
+wmctrl -r :ACTIVE: -b toggle,above  && \\
+./sccache_mointor.sh " \\
 #
 
 # wmctrl -r :ACTIVE: -b toggle,above
