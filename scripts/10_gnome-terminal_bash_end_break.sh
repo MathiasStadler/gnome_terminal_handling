@@ -16,3 +16,11 @@ bash"
 # wmctrl -r :ACTIVE: -b toggle,above
 # How to make terminal always on top most from command line?
 # https://stackoverflow.com/questions/73436334/how-to-make-terminal-always-on-top-most-from-command-line
+
+# gnome-terminal -- bash -c "xdotool getactivewindow;bash;"
+
+# function
+# gnome-terminal -- bash -c "xdotool getactivewindow;bash"
+
+# gnome-terminal -- bash -c bash
+# echo $(xdotool getactivewindow)

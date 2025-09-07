@@ -13,7 +13,18 @@ wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800  && \\
 wmctrl -r :ACTIVE: -b toggle,above  && \\
 ./sccache_mointor.sh " \\
 #
+gnome-terminal -- bash --command "a=$(wmctrl -l|tail -n 1 |tail -n 1 | awk '{print $1;}') && \\
+wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800  && \\
+wmctrl -r :ACTIVE: -b toggle,above  && \\
+./sccache_mointor.sh " \\
+
 
 # wmctrl -r :ACTIVE: -b toggle,above
 # How to make terminal always on top most from command line?
 # https://stackoverflow.com/questions/73436334/how-to-make-terminal-always-on-top-most-from-command-line
+
+# gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800
+
+# gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800 -b toggle,above
+
+# gnome-terminal -- wmctrl -i -r $(xdotool getactivewindow) -e 0,0,0,600,800; wmctrl -i -r $(xdotool getactivewindow)  -b toggle,above
