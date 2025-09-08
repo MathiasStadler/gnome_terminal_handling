@@ -6,6 +6,7 @@
         "mointor",
         "sccache",
         "shellcheck",
+        "trapapa",
         "windowfocus",
         "wmctrl"
     ]

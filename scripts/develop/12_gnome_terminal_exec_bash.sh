@@ -31,6 +31,10 @@ echo $(($(wmctrl -l|tail -n 1 |tail -n 1 | awk '{print $1}'))) && gnome-terminal
 
 wmctrl -l | awk '{print $1}'
 
+# convert octal to decimal
+# echo $(($(wmctrl -l|tail -n 1 |tail -n 1 | awk '{print $1}')))
+# echo $(wmctrl -l|tail -n 1 |tail -n 1 | awk '{print $1}')
+
 # oct to decimal
 # echo $((0x0480000a)) => 75497482
 
