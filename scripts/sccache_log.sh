@@ -15,3 +15,4 @@ cd ~/.cache/sccache && watch -n 5 du -h . -d 1
 
 # ~/sccache_mointor.sh
 
+ 
